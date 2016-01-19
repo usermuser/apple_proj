@@ -1,0 +1,12 @@
+User-agent: Yandex
+Disallow: /admin
+
+#Clean-param: ident /index.php
+#www.yoursite.com/index.php?n=1&ident=515b78d9a31f14781
+#www.yoursite.com/index.php?n=1&ident=6a124f5e631241451
+#<link rel="canonical" href="http://remont-iphone.su">
+
+User-agent: Yandex
+Allow: /
+Sitemap: http://mysite.com/site_structure/my_sitemaps1.xml
+Sitemap: http://mysite.com/site_structure/my_sitemaps2.xml

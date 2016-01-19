@@ -1,0 +1,23 @@
+
+######################
+sudo /etc/init.d/nginx restart
+
+sudo /etc/init.d/nginx reload
+
+sudo /etc/init.d/nginx configtest
+
+sudo /etc/init.d/nginx status
+
+whereis nginx
+
+whatis nginx
+
+hostid
+
+hostname
+
+######################
+sudo uwsgi --ini apple_uwsgi.ini
+
+
+sudo uwsgi --emperor /etc/uwsgi/vassals --uid www-data --gid www-data
