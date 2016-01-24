@@ -78,11 +78,11 @@
       <!--/static/apple_app/images/carousel/car1.jpg-->
       <div class="jumbotron">
       <div class="container">
-        <p> ТЦ Горбушка </p>
+        <h1> ТЦ Горбушка </h1>
         <p> Павильон А01-017А </p>
-        <p> Тел: +7-964-517-51-10 </p>
-        <p><a class="btn btn-primary btn-lg" href="tel:8-964-517-51-10" role="button">Позвонить</a></p>
-        <p><a class="btn btn-primary btn-lg" href="#map" role="button">Карта проезда »</a></p>
+        <p> Т: +7-964-517-51-10 </p>
+        <p><a class="btn btn-primary btn-sm" href="tel:8-964-517-51-10" role="button">Позвонить</a></p>
+        <p><a class="btn btn-primary btn-sm" href="#map" role="button">Карта проезда »</a></p>
       </div>
     </div>
 
@@ -180,7 +180,9 @@
                 -->
               </tr>   
             {% endfor %}         
+              
             </table>
+            <p>*При замене стекла или экрана - пленка в подарок</p>
           </div>
           <div class="col-md-5">
             <img class="center-block" data-holder-rendered="true" src="{% static 'apple_app' %}/images/{{ device.picture_name }}" alt="500x500">
@@ -201,7 +203,7 @@
           <div class="col-lg-3">
             <img class="center-block" src="{% static 'apple_app' %}/images/2.png" alt="Generic placeholder image" height="140" width="140">
             <h2>Гарантия</h2>
-            <p>Даем гарантию на все выполненные работы.</p>
+            <p>Бесплатная диагностика. Даем гарантию на все выполненные работы.</p>
             <!--<p><a class="btn btn-default" href="#" role="button">View details »</a></p>-->
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-3">
@@ -225,7 +227,8 @@
       
       <!-- ROAD MAP -->
       <div class="container"><a name="map"></a>
-        <h2 class="featurette-heading">Карта проезда</h2>
+        <h2>Карта проезда</h2>
+        <p>Три минуты от станции метро Багратионовская.</p>
         <p><img class="map" src="{% static 'apple_app' %}/images/map/map_sheme_1.jpg" alt="Карта проезда"></p>
         <hr class="featurette-divider">
         <p><img class="map" src="{% static 'apple_app' %}/images/map/map_sheme_2.jpg" alt="Карта проезда"></p>
@@ -243,7 +246,7 @@
           <abbr title="Адрес"> Багратионовский пр. 7 ТЦ "Горбушка"</abbr><br>
           <abbr title="Павильон"> Павильон А1-017А</abbr><br>
           <abbr title="Телефон">Т:</abbr>+7-964-517-51-10<br>
-          <a class="btn btn-primary btn-lg" href="tel:8-964-517-51-10" role="button">Позвонить</a><br>
+          <a class="btn btn-primary btn-sm" href="tel:8-964-517-51-10" role="button">Позвонить</a><br>
         </address>
 
         <p class="pull-left"><a href="#">Наверх</a></p>
