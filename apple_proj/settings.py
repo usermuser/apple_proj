@@ -20,17 +20,17 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '=x4j_*fgfavkyszjh#3^bd24va9d(1mny!($ri#575k%&r=cqz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = [
-        'www.remont-iphone.su',
-        'remont-iphone.su',
+        #'www.remont-iphone.su',
+        #'remont-iphone.su',
 ]
 #TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
-TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates/'),) 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
+#TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates/'),) 
+#STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
 
 # Application definition
 
@@ -86,4 +86,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'apple_app/static/')
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
